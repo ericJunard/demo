@@ -1,0 +1,244 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	outline: none !important;
+}
+html {
+	background: #fff;
+}
+body {
+	font-family: 'Roboto', 'sans-serif';
+	width: 70%px;
+}
+
+
+.box-center p{
+	  padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+
+}
+.box p{
+	font-family: "Open Sans", sans-serif;
+	color: #4e4d4d;
+	    font-size: 10pt
+}
+.btn-select{
+	height: 35px;
+	color: #ffffff;
+	background-color: #e37114;
+	font-weight: bold;
+	border-radius: 0px;
+}
+.continue-btn{
+		height: 35px;
+
+	color: #ffffff!important;
+	background-color: #e37114;
+	margin-top: 30px;
+	font-weight: 400!important;
+	padding-top: 5px;
+	border-radius: 0px;
+}
+.submit-btn{
+		height: 50px;
+
+	color: #ffffff!important;
+	background-color: #e37114;
+	margin-top: 5px;
+	font-weight: 400!important;
+	padding-top: 10px;
+	width: 100%;
+	border-radius: 0px;
+}
+.continue-btn:hover, .submit-btn:hover{
+	color: #ffffff;
+	background-color: #d2640b;
+}
+.btn-select:hover{
+	background-color: #d2650c;
+	color: #ffffff;
+}
+.btn-center{
+	height: 40px;
+	width: 100%;
+	color: #ffffff;
+border:2px solid #ffffff;
+	font-weight: bold;
+		margin-top: 55px;
+}
+.btn-center:hover{
+	color: #17ac6e;
+	background-color: #ffffff;
+}
+.h3{
+	font-family: "Open Sans", sans-serif;
+	font-size: 13pt;
+}
+
+.ui-slider-track .ui-btn.ui-slider-handle, .ui-slider-track .ui-btn.ui-slider-handle:hover, .ui-slider-track .ui-btn.ui-slider-handle:focus {
+    font-size: .9em;
+    line-height: 30px;
+    background-color: #e37114;
+    border-style: none;
+}
+.ui-slider-range{
+	background-color: red;
+}
+.sidenote{
+	font-family: "Open Sans", sans-serif;
+	color: #989595;
+	font-size: 11pt;
+}
+.input-style{
+	height: 50px;
+	width: 100%;
+}
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
+ opacity:0;  /* make things invisible upon start */
+ -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+ -moz-animation:fadeIn ease-in 1;
+ animation:fadeIn ease-in 1;
+ 
+ -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+ -moz-animation-fill-mode:forwards;
+ animation-fill-mode:forwards;
+ 
+ -webkit-animation-duration:1s;
+ -moz-animation-duration:1s;
+ animation-duration:1s;
+}
+ 
+.fade-in.one {
+-webkit-animation-delay: 2s;
+-moz-animation-delay: 2s;
+animation-delay: 2s;
+}
+.fade-in.two {
+-webkit-animation-delay:3s;
+-moz-animation-delay: 3s;
+animation-delay: 3s;
+}
+.fade-in.three {
+-webkit-animation-delay: 4s;
+-moz-animation-delay: 4s;
+animation-delay: 4s;
+}
+
+
+.h3-style{
+	font-family: "Open Sans", sans-serif;
+	color: #17ac6e;
+	font-size: 15pt;
+}
+
+.fieldcontainer{
+	margin-top: 20px;
+}
+.h2{
+	font-family: "Open Sans", sans-serif;
+	font-size:20pt;
+	color: #36679c;
+	font-weight: bold;
+}
+.h4{
+		padding-bottom:15px;
+		color: #545756;
+		font-size: 10pt;
+}
+
+
+.vehicle-label{
+	font-weight: bold;
+}
+.form_input{
+	height: 45px;
+	width: 100%;
+	padding-left: 15px;
+}
+.pleft{
+	padding-left: 15px;
+}
+.form-control{
+	width: 100%;
+	height: 40px;
+	border-radius: 0px;
+}
+.form-control:focus{
+	border: 2px solid #17ac6e;
+	box-shadow: none;
+}
+.select, .select_date{
+	height: 40px;
+
+}
+.select{
+	width: 100%;
+}
+.select_date{
+	width: 27%;
+}
+.recommended{
+	background-color: #e4e4e4;
+}
+.img_padding{
+	padding-top: 15px;
+}
+.help{
+	padding-top: 8px;
+}
+
+.progress {
+    height: 9px;
+    background-color: #dadfe1;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    clear: both;
+    margin: 6px 0 16px 0;
+    overflow: inherit;
+}
+.progress-bar{
+	background-color: #f24971!important;
+}
+.wrapp-progress {
+    position: absolute;
+    padding-top: 24px;
+}
+.progress-bar {
+    float: left;
+    width: 0%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #f24971!important;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+    -webkit-transition: width .6s ease;
+    transition: width .6s ease;
+}
+.indicator{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	padding: 30px 0px 0px 0px;
+	color: #6D5C56;
+}
+.number{
+	color: #f24971;
+	padding-left: 10px;
+}
+.ui-page-theme-a .ui-bar-inherit
+{
+	width: 100%!important;
+}
+.trivia{
+  font-family: "Open Sans", sans-serif;
+  font-size: 11pt;
+}
